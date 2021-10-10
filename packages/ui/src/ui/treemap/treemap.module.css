@@ -1,0 +1,29 @@
+.root {
+  position: relative;
+  border: 1px solid var(--color-outline);
+}
+
+.root::before {
+  content: '';
+  display: block;
+  padding: 0 0 40%;
+}
+
+.item {
+  padding: var(--space-xxsmall);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-highlight);
+  outline: 1px solid var(--color-outline);
+}
+
+.itemLabel {
+  max-width: 100%;
+  color: var(--color-text-light);
+  font-size: var(--size-small);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
