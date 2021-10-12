@@ -1,3 +1,10 @@
 .title {
   color: var(--color-text-light);
 }
+
+.tabItem {
+  border: none;
+  outline: none;
+  background: none;
+  appearance: none;
+}
